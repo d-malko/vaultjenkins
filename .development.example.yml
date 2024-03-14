@@ -1,0 +1,8 @@
+vault:
+  vaultUrl: 'http://vaultUrl'
+  rootToken: 'vault root token'
+
+jenkins:
+  jenkinsUrl: 'jenkinsUrl'
+  jenkinsUsername: 'jenkinsUsername'
+  jenkinsPassword: 'jenkinspassword'
