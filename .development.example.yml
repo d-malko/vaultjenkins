@@ -6,3 +6,5 @@ jenkins:
   jenkinsUrl: 'jenkinsUrl'
   jenkinsUsername: 'jenkinsUsername'
   jenkinsPassword: 'jenkinspassword'
+  foldername: 'terraform-tests'
+  credsId: 'terraform-role-1'
