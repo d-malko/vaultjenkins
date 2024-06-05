@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python ./runner.py  --vault_url $VAULT_URL --root_token $TOKEN --jenkins_url $JENKINS_URL --jenkins_username $JENKINS_USERNAME --jenkins_password $JENKINS_PASSWORD --foldername $FOLDERNAME --credsId $CREDS_ID
+    volumes:
+      - .:/app
+    ports:
+      - '5000:5000'

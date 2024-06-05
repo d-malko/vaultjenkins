@@ -70,3 +70,4 @@ class JenkinsAuth:
         user = self.jenkinsServer.get_whoami()
         version = self.jenkinsServer.get_version()
         return 'Hello %s from Jenkins %s' % (user['fullName'], version)
+

@@ -1,2 +1,6 @@
 /venv/
-.development.yml
+build
+dist
+.idea
+*/__pycache__
+.env
